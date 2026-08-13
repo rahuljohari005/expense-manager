@@ -2,7 +2,7 @@
 
 ## Technologies
 - React + TypeScript + Vite
-- Java 21 + Spring Boot
+- Java 25 + Maven
 - PostgreSQL
 - Spring Data JPA
 - Apache Commons CSV
