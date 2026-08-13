@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: expense-manager-postgres
+    environment:
+      POSTGRES_DB: expense_manager
+      POSTGRES_USER: expense
+      POSTGRES_PASSWORD: expense
+      TZ: Asia/Kolkata
+    ports:
+      - "5433:5432"
+    volumes:
+      - expense-data:/var/lib/postgresql/data
+volumes:
+  expense-data:
